@@ -18,7 +18,9 @@ use App\Http\Controllers\AdminController;
 
 
 // Public routes
-Route::get('/', [PostController:: class, 'index'] );
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('/faq', function () {
     return view('user.faq');

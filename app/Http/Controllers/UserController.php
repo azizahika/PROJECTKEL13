@@ -22,7 +22,7 @@ class UserController extends Controller
 
         if (Auth::attempt($credentials)) {
             // Jika autentikasi berhasil
-            return redirect()->intended('/');
+            return redirect()->intended('/homeawal');
         } else {
             // Jika autentikasi gagal
             return back()->withErrors(['email' => 'Email atau password salah']);

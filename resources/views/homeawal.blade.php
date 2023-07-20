@@ -1,6 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,8 +63,8 @@
   <!-- ======= HERO Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1> Pilih salah satu jawaban yang paling sesuai dengan kondisi Anda</h1>
-      <a href="/kuisioner" class="btn-get-started" >Mulai</a>
+      <h1>SILAHKAN MEMULAI</h1>
+      <a href="https://bit.ly/PresensiPesertaTM2DUTVOKS2023" class="btn-get-started" target="_blank">Mulai</a>
     </div>
   </section><!-- End hero Section -->
 
@@ -438,4 +435,3 @@
 </body>
 
 </html>
-@endsection

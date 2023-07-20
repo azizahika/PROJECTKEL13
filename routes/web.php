@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/kuisioner', function () {
+    return view('kuisioner');
+});
+
 Route::get('/faq', function () {
     return view('user.faq');
 });

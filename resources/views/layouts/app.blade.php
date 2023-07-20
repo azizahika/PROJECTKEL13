@@ -30,6 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                
 
                     </ul>
 
@@ -70,11 +71,12 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </nav>
 
-        <main class="py-4">
+        
             @yield('content')
-        </main>
+        
     </div>
 </body>
 </html>
